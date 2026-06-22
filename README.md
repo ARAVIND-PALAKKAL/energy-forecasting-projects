@@ -37,3 +37,40 @@ complex temporal patterns in energy consumption data.
 - **RMSE** (Root Mean Squared Error) — secondary metric
 
 ## Project Structure
+energy-forecasting-projects/
+
+├── data/               # Raw CSV files (not tracked in Git)
+
+├── notebooks/          # Jupyter notebooks
+
+│   └── project3_classical_vs_deeplearning.ipynb
+
+├── models/             # Saved model weights
+
+├── results/            # Output plots and metrics
+
+└── README.md
+
+## Requirements
+pandas
+
+numpy
+
+matplotlib
+
+statsmodels
+
+torch
+
+jupyter
+
+## How to Run
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Download AEP_hourly.csv from Kaggle and place in `data/`
+4. Open and run `notebooks/project3_classical_vs_deeplearning.ipynb`
+
+## Context
+This project was built as part of a series exploring time series 
+forecasting methods for energy systems, with a focus on benchmarking 
+classical vs. modern deep learning approaches.
